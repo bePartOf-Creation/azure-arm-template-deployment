@@ -6,7 +6,7 @@ The purpose of this deployment is to demonstrate the possibility of deploying to
 
 ### Use Case.
 A Saving Application(In Requirement Gathering) called `KoloBox Savings App` was used as my use case, where i have created a single resource in resource group`(kolobox-rgp)`
-to host my application in the  `dev` environment, redirects the creation of the resource to a re-usable template `(simpledevtemplate.json)` which was used as template for deployment 
+to host my application to serve as my  `dev` environment, redirects the creation of the resource to a re-usable template `(simpledevtemplate.json)` which was used as template for deployment 
 to another resource group `(kolobox-prod-rgp)` i choose to be my `prod` environment. The next sections will be command used and  challenegs faced in carrying out this slick deployment.
 
 ### Commands Used.
