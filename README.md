@@ -17,7 +17,7 @@ First of all, the prequisite here is to have the dynamics of linux commands.
 * `az group list -o table` OR
 * `az group exists -g  kolobox-rgp`
 * `az vm create -g kolobox-rgp -n testVm --image Ubuntu2204 --admin-username azureuser --generate-ssh-keys  --size Standard_B1s`.
-After creation, test the ssh authentication to your vurtual machine with `ssh azureuser@20.163.192.37`.
+After creation, test the ssh authentication to your virtual machine with `ssh azureuser@20.163.192.37`.
 
 Yaay!!!!! It Works 😁
 
@@ -31,9 +31,9 @@ Yaay!!!!! It DEPLOYED 😁
 
 ### Challenges Faced
 Errors Like:
-`'simpledevtemplate.json' is misspelled or not recognized by the system.'` - This was caused by a missing command `(create)` while trying to deploy with my arm template to the target rg.
+* `'simpledevtemplate.json' is misspelled or not recognized by the system.'` - This was caused by a missing command called `(create)` while trying to deploy with my arm template to the target resource group.
 
-`"code":"InvalidParameter",
+* `"code":"InvalidParameter",
 "target":"requireGuestProvisionSignal",
 "message":"The property 'requireGuestProvisionSignal' is not valid because the 'Microsoft.Compute/Agentless' feature is not enabled for this subscription."}` - This property `'requireGuestProvisionSignal'` was not enable for subscription, also this was was taken out of the template in resolving it.
 
