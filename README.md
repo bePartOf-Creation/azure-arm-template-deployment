@@ -37,7 +37,7 @@ Errors Like:
 "target":"requireGuestProvisionSignal",
 "message":"The property 'requireGuestProvisionSignal' is not valid because the 'Microsoft.Compute/Agentless' feature is not enabled for this subscription."}` - This property `'requireGuestProvisionSignal'` was not enable for subscription, also this was was taken out of the template in resolving it.
 
-### Deployemt Images
+### Deployment Images
 `Dev Deployment(kolobox-rgp)`
 ![KoloBox Dev Environment](https://github.com/bePartOf-Creation/azure-arm-template-deployment/assets/76472595/46b9eba2-de8a-42c3-8b68-54d2f310d0b6)
 
